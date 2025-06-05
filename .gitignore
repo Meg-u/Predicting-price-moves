@@ -1,11 +1,23 @@
-venv/
-data/
+# Jupyter
 
-# Ignore Jupyter notebook checkpoints
+# Ignore all CSV files in notebooks/processed_yfinance/
+notebooks/processed_yfinance/*.csv
+
+# Ignore specific merged CSV
+notebooks/merged_df.csv
+
+**/*.csv
 .ipynb_checkpoints/
-__pycache__/
-*.pyc
+*.ipynb
 
-# Ignore OS-specific files
-.DS_Store
-Thumbs.db
+# Data files
+*.csv
+*.data
+*.json
+*.xlsx
+*.db
+*.parquet
+
+# Python
+__pycache__/
+*.py[cod]
