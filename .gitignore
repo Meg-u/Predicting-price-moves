@@ -9,7 +9,8 @@ notebooks/merged_df.csv
 **/*.csv
 .ipynb_checkpoints/
 *.ipynb
-
+venv/
+requirements.txt/
 # Data files
 *.csv
 *.data
