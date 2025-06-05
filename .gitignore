@@ -1,10 +1,12 @@
+﻿
+data/raw_analyst_ratings.csv
+notebooks/processed_yfinance/*.csv
+data/yfinance_data/*.csv
+# Python
 venv/
-
-# Ignore Jupyter notebook checkpoints
-.ipynb_checkpoints/
 __pycache__/
 *.pyc
+*.pyo
 
-# Ignore OS-specific files
-.DS_Store
-Thumbs.db
+# Jupyter
+.ipynb_checkpoints/
